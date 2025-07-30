@@ -14,7 +14,7 @@ function App() {
 			: 'night-bg'
 		: '';
 
-	const url = 'http://api.weatherapi.com/v1/forecast.json';
+	const url = 'https://api.weatherapi.com/v1/forecast.json';
 	const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
 	useEffect(() => {
